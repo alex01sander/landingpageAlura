@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Menu */
+.menu {
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu h1 {
+    
+    text-align: left;
+    color: #3A404E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+   
+}
+
+.menu ul {
+    margin: 0 auto;
+}
+  
+.menu ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 0px 10px;
+    line-height: 25px;
+    padding: 0;
+    position: relative;
+    
+}
+  
+.menu a {
+    padding: 12.5px;
+    display: block;
+    text-decoration: none;
+    color: #3A404E;
+    font-size: 16px;
+    
+    
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-family: 'Inter', sans-serif;
+}  
+
+
+
+#btn-entrar{
+    border: none;
+    background-color: white;
+    color: #667085;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+#btn-cadastrar{
+    border: 1px solid #8E2424;
+    background-color: #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    width: 112px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+}
+/* FIM MENU */
+
+/* SOBRE NÓS */
+#sobrenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sbrn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E2424;
+    margin-bottom:50px ;
+}
+
+.sbrn-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #101828;
+    margin-bottom: 50px;
+}
+
+.sbrn-p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    width: 791px;
+    height: 60px;
+}
+
+
+#result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: #8E2424;
+    letter-spacing: -0.02em;
+    width: 280px;
+    height: 72px;
+}
+  
+.result-p1{
+    width: 280px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}  
+
+.result-p2{
+    width: 280px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+
+}
+/* FIM SOBRE NÓS */
+
+/* VAGAS */
+
+#vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.img-vagas{
+    width: 1216px;
+    height: 400px;
+    left: 112px;
+    top: 298px;
+    margin-top: 50px;
+}
+
+.vagas-p1{
+    color: #8E2424;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+    width: 125px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+
+}
+
+.p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    width: 768px;
+    height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+.vagas-p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+/* FIM VAGAS */
+/* VAGAS ABERTAS */
+#vagas-disp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 24px 28px;
+}
+
+h4{
+    width: 768px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+.vd-p1{
+    width: 720px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    padding: 20px;
+}
+
+
+.vd-p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.vg-border{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    margin-top: 20px;
+}
+
+.space{
+    margin-top: 20px;
+}
+/* FIM VAGAS ABERTAS */
+
+/* DEPOIMENTOS */
+#depoimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 1216px;
+    height: 404px;
+    margin: auto;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.depo-p1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E2424;
+}
+
+h5{
+    width: 1088px;
+    height: 88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.depo-p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #101828;
+}
+
+.depo-p3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #667085;
+}
+
+/* FIM DEPOIMENTOS */
+
+/* FORMULARIO */
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #F9FAFB;
+    margin-top: 100px;
+    padding: 50px;
+    
+}
+
+h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.form-p1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+
+.email{
+    width: 360px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.btn{
+    width: 116px;
+    height: 48px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+
+.form-p2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* Gray/400 */
+
+color: #98A2B3;
+}
+
+/* FIM FORMULARIO */
+  
+@media (max-width: 500px) {
+    
+    .menu {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu ul {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobrenos {
+       
+        margin-top: 286px;
+    }
+
+    .sbrn-h1 {
+      
+        text-align: center;
+    }
+
+    .sbrn-p2 {
+        width: 433px;
+    }
+
+    #result {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+       
+    }
+
+    h3 {
+        width: 547px;
+        margin-bottom: 73px;
+    }
+
+    .img-vagas {
+        width: 475px;
+       height: auto;
+    }
+
+    
+
+    h4 {
+        text-align: center;
+    }
+
+    .vg-border {
+        width: 600px;
+        text-align: center;
+    }
+
+    #depoimentos {
+        width: 460px;
+        height: auto;
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    h5 {
+        width: 391px;
+        
+    }
+
+    .img-depo {
+        margin-top: 230px;
+    }
+  }
+  
+
+  @media (max-width: 1024px){
+    .menu {
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        width: 100%;
+        height: 80px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #result {
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .img-vagas {
+        width: 978px;
+        /* height: 400px; */
+        left: 112px;
+        top: 298px;
+        margin-top: 50px;
+    }
+
+    #depoimentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        width: 991px;
+        height: 580px;
+        margin: auto;
+        background: rgba(196, 25, 25, 0.03);
+        border-radius: 16px;
+    }
+
+    h5 {
+        width: 1001px;
+        height: 88px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #101828;
+    }
+
+    .img-depo {
+        margin-top: 120px;
+    }
+}
+ 
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+ 
